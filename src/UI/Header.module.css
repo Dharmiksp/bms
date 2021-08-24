@@ -1,0 +1,43 @@
+.tabs {
+    color: white;
+    padding: 10px;
+    font-weight: 500;
+  }
+  
+  .search {
+    color: black;
+    padding: 10px;
+    margin-right: 15px;
+  }
+  
+  .images {
+      margin-left: 50px;
+  }
+  
+  .active {
+    color: grey;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .tabs:hover {
+    color: gray;
+    font-weight: bolder;
+  }
+  
+  .search:hover {
+    animation: rotate 1s linear;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
